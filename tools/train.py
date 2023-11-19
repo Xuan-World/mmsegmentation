@@ -1,4 +1,4 @@
-# Copyright (c) OpenMMLab. All rights reserved.
+ # Copyright (c) OpenMMLab. All rights reserved.
 import argparse
 import logging
 import os
@@ -9,7 +9,6 @@ from mmengine.logging import print_log
 from mmengine.runner import Runner
 
 from mmseg.registry import RUNNERS
-
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a segmentor')
